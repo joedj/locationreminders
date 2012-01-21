@@ -1,0 +1,14 @@
+Package: net.joedj.locationreminders
+Name: LocationReminders
+Version: 1.0
+Author: joedj <locationreminders@joedj.net>
+Description: Enable location reminders on supported hardware
+Depends: firmware (>= 5.0), mobilesubstrate, gsc.location-services, gsc.gps, gsc.contains-cellular-radio, gsc.gyroscope
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Section: Tweaks
+dev: joejordan
+Tag: purpose::extension, role::enduser
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=locationremindersDp
+Homepage: http://github.com/joedj/locationreminders
