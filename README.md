@@ -1,7 +1,9 @@
 What is it?
 -----------
 
-LocationReminders is an iOS tweak that enables location reminders on supported hardware, such as the iPad2.
+LocationReminders is an iOS tweak for the Reminders app that enables location-based reminders on devices with region monitoring support, such as the iPad2+3G.
+
+LocationReminders has no effect on devices that already support location-based reminders, such as the iPhone4 and iPhone4S, but it can be used as a dependency by developers wishing to target all capable devices.
 
 
 Installing LocationReminders
