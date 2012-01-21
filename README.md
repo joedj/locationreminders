@@ -1,11 +1,11 @@
-Introduction
-------------
+What is it?
+-----------
 
 LocationReminders is an iOS tweak that enables location reminders on supported hardware, such as the iPad2.
 
 
-Compiling
----------
+Installing LocationReminders
+----------------------------
 
 LocationReminders is designed to work with the [Theos](https://github.com/DHowett/theos) Makefile system:
 
