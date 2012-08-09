@@ -1,8 +1,7 @@
 TARGET = iphone:latest:5.0
 
 TARGET_STRIP = bin/dsym_and_strip "$(SYSROOT)"
-TARGET_STRIP_FLAGS =
-ADDITIONAL_CFLAGS = -g
+ADDITIONAL_CFLAGS += -g
 
 TWEAK_NAME = LocationReminders
 LocationReminders_FILES = Tweak.xm

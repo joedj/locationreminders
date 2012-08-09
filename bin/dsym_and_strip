@@ -1,4 +1,7 @@
 #!/bin/sh
 set -e
-dsymutil -o "$2".dSYM "$2"
-xcrun -sdk "$1" strip -x "$2"
+sdk="$1"
+shift
+binary="${!#}"
+dsymutil -o "$binary".dSYM "$binary"
+xcrun -sdk "$sdk" strip "$@"
