@@ -4,6 +4,7 @@ Version: 1.0
 Author: joedj <locationreminders@joedj.net>
 Description: Enable location reminders on supported hardware
 Depends: firmware (>= 5.0), mobilesubstrate, gsc.location-services, gsc.gps, gsc.contains-cellular-radio, gsc.gyroscope
+Provides: gsc.location-reminders
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Sponsor: thebigboss.org <http://thebigboss.org>
