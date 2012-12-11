@@ -1,6 +1,6 @@
 Package: net.joedj.locationreminders
 Name: LocationReminders
-Version: 1.0
+Version: 1.1
 Author: joedj <locationreminders@joedj.net>
 Description: Enable location reminders on supported hardware
 Depends: firmware (>= 5.0), mobilesubstrate, gsc.location-services, gsc.gps, gsc.contains-cellular-radio, gsc.gyroscope
