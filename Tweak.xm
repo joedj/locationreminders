@@ -15,14 +15,19 @@
 %end
 
 %hook EKReminderLocationPicker
+
 - (void)viewWillAppear:(BOOL)animated {
     %orig;
-    UINavigationController *navController = [self navigationController];
-    [self navigationItem].leftBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:navController.previousViewController.title
+    [self navigationItem].leftBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:[self navigationController].previousViewController.title
                                                                         style:UIBarButtonItemStylePlain
-                                                                        target:navController.delegate
-                                                                        action:@selector(popViewController)] autorelease];
+                                                                        target:self
+                                                                        action:@selector(locationreminders_popViewController)] autorelease];
 }
+
+%new - (void)locationreminders_popViewController {
+    [[self navigationController] popViewControllerAnimated:YES];
+}
+
 %end
 
 %ctor {
